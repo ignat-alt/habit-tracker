@@ -48,7 +48,7 @@ jobs:
             backend/requirements-dev.txt
       - run: pip install -r requirements-dev.txt
       - run: pytest -v --cov=app --cov-report=term-missing --cov-report=html --cov-fail-under=80
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: matrix.python-version == '3.12'
         with:
           name: coverage-html
