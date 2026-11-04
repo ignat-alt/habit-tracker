@@ -1,4 +1,4 @@
-![CI/CD](https://github.com/<ваш_логин>/habit-tracker/actions/workflows/ci-cd.yml/badge.svg)
+![CI/CD](https://github.com/ignat-alt/habit-tracker/actions/workflows/ci-cd.yml/badge.svg)
 
 # Habit Tracker
 
