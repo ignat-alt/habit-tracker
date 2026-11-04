@@ -5,4 +5,4 @@ def calculate_streak(check_ins: list[bool]) -> int:
         if not done:
             break
         streak += 1
-    return streak
+    return min(streak, 365)
