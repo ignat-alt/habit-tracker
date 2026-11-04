@@ -29,3 +29,4 @@ cd backend
 pytest -v --cov=app --cov-report=term-missing
 ruff check .
 ```
+test
